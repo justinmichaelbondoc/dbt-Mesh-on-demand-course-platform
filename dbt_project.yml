@@ -1,5 +1,7 @@
 name: core_platform
 version: "2.1.0"
+dbt-cloud:
+    project-id: 562448
 config-version: 2
 
 profile: "snowflake"

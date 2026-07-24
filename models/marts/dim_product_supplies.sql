@@ -14,7 +14,7 @@ product_supplies_summary as (
     group by 1
 ),
 
-final as (
+finale as (
     select
         products.*,
         product_supplies_summary.supply_cost
@@ -22,5 +22,5 @@ final as (
         left join product_supplies_summary 
             on products.product_id = product_supplies_summary.product_id
 )
-
-select * from final
+    
+select * from finale
