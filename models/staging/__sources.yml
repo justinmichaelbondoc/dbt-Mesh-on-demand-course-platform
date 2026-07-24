@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: jaffle_shop
-    database: raw
-    schema: jaffle_shop
+    database: cse-sandbox-319708
+    schema: jaffle_shopp
     description: E-commerce data
     tables:
       - name: customers
